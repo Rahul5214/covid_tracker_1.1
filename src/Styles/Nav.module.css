@@ -1,0 +1,21 @@
+.container {
+  background-color: #2d3436;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0px 18px -10px white;
+          box-shadow: 0 0px 18px -10px white;
+}
+
+.container a {
+  color: #EEF0F2;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: .8rem 1.6rem;
+  text-shadow: 0 0px 2px whitesmoke;
+}
+
+.container a:not(.logo):hover {
+  color: #141414;
+  background-color: white;
+}

@@ -1,0 +1,118 @@
+.container {
+  height: 100vh;
+  background-image: url(../img/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+}
+
+.container .hero {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+.container .india {
+  text-transform: uppercase;
+  margin: 2rem auto 3rem auto;
+}
+
+.container .containerCard {
+  width: 53rem;
+  height: 12rem;
+  gap: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+.container .containerCard div {
+  background-color: white;
+  -webkit-box-shadow: 0 3px 15px -5px black;
+          box-shadow: 0 3px 15px -5px black;
+  border-bottom: 1rem solid #007bff;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform .2s linear;
+  transition: -webkit-transform .2s linear;
+  transition: transform .2s linear;
+  transition: transform .2s linear, -webkit-transform .2s linear;
+}
+
+.container .containerCard div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.container .containerCard .title {
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: black;
+  margin-top: 2.5rem;
+}
+
+.container .containerCard .data {
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+
+.container .containerCard .confirmed {
+  border-bottom: 1rem solid #007bff;
+}
+
+.container .containerCard .recovered {
+  border-bottom: 1rem solid #28a745;
+}
+
+.container .containerCard .active {
+  border-bottom: 1rem solid #ffc107;
+}
+
+.container .containerCard .deaths {
+  border-bottom: 1rem solid #dc3545;
+}
+
+.container .lastUpdate {
+  background-color: rgba(128, 128, 128, 0.644);
+  color: black;
+  letter-spacing: 1.5px;
+  font-size: medium;
+  margin-top: 3.5rem;
+  padding: .5rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.container .source {
+  margin-top: 2.5rem;
+}
+
+.container .source a {
+  text-decoration: none;
+  color: #007bff;
+  background-color: #007bff;
+  background-color: white;
+  padding: .5rem 1.2rem;
+  border: 1.5px solid #007bff;
+  border-radius: .3rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.container .source a:hover {
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem 0 3rem 0;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(175, 180, 180, 0.452)), to(rgba(223, 223, 231, 0.438)));
+  background-image: linear-gradient(to right, rgba(175, 180, 180, 0.452), rgba(223, 223, 231, 0.438));
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.container h1 {
+  color: #009879;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.table_container {
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 7px 7px 0 0;
+  -webkit-box-shadow: 0 0px 20px -8px rgba(0, 0, 0, 0.562);
+          box-shadow: 0 0px 20px -8px rgba(0, 0, 0, 0.562);
+}
+
+.table_container th {
+  text-transform: uppercase;
+}
+
+.table_container th, .table_container td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.table_container tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table_container tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.table_container tr:nth-of-type(10) {
+  color: #009879;
+  font-weight: bold;
+}
+
+thead {
+  background-color: #009879;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
